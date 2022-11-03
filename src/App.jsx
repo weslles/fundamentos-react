@@ -8,6 +8,7 @@ import Card from "./components/layout/Card";
 import "./App.css";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 
 
 export default function App() {
@@ -17,6 +18,9 @@ export default function App() {
 
             <div className="Cards">
 
+                <Card titulo="#06 - Repetição" color="#C4E538">
+                    <ListaAlunos></ListaAlunos>
+                </Card>
                 <Card titulo="#05 - Componente com FIlhos" color="#40E0D0">
                     <Familia sobrenome="Silva">
                         <FamiliaMembro nome="Pedro" ></FamiliaMembro><p />
