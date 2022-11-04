@@ -9,6 +9,7 @@ import "./App.css";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 
 export default function App() {
@@ -17,6 +18,26 @@ export default function App() {
             <h1>Fundamentos React </h1>
 
             <div className="Cards">
+
+                <Card titulo="#10 - [NOME]" color="#6F1E51">
+
+                </Card>
+
+                <Card titulo="#09 - [NOME]" color="#9980FA">
+
+                </Card>
+
+                <Card titulo="#08 - [NOME]" color="#006266">
+
+                </Card>
+
+                <Card titulo="#07 - [JÉSSICA = JULIANA]" color="#FDA7DF">
+
+                </Card>
+
+                <Card titulo="DESAFIO - REPETIÇÃO" color="#FDA7DF">
+                    <TabelaProdutos></TabelaProdutos>
+                </Card>
 
                 <Card titulo="#06 - Repetição" color="#C4E538">
                     <ListaAlunos></ListaAlunos>

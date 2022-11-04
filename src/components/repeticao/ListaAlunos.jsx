@@ -1,9 +1,9 @@
 import React from "react";
-import alunos from '../../data/alunos'
+import alunos from '../../data/data'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
-    const alunosLI = alunos.map((aluno) => {
+    const alunosLI = alunos['alunos'].map((aluno) => {
         return (
             <li>
                 {aluno.id}) {aluno.nome} -> {aluno.nota}
