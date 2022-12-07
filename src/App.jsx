@@ -13,6 +13,7 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 
 export default function App() {
@@ -26,8 +27,8 @@ export default function App() {
 
                 </Card>
 
-                <Card titulo="#09 - [NOME]" color="#9980FA">
-
+                <Card titulo="#09 - Comunicação Indireta" color="#9980FA">
+                    <IndiretaPai></IndiretaPai>
                 </Card>
 
                 <Card titulo="#08 - Comunicação Direta" color="#006266">
