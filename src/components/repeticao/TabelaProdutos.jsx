@@ -4,8 +4,8 @@ import Produtos from '../../data/data';
 const produtos = Produtos['produtos'].map((produto) => {
     return (
         <tr key={produto.id}>
-            <td>{produto.id}</td>
-            <td>{produto.nome}</td>
+            <td><abbr>{produto.id}</abbr></td>
+            <td><abbr>{produto.nome}</abbr></td>
             <td>{produto.preco.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</td>
         </tr>
     )

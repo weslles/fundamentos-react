@@ -10,6 +10,8 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 
 export default function App() {
@@ -31,8 +33,11 @@ export default function App() {
 
                 </Card>
 
-                <Card titulo="#07 - [JÉSSICA = JULIANA]" color="#FDA7DF">
-
+                <Card titulo="#07 - Par ou Impar" color="#FDA7DF">
+                    <ParOuImpar numero = {90}></ParOuImpar>
+                    <UsuarioInfo usuario = {{nome:"Weslles"}}></UsuarioInfo>
+                    <UsuarioInfo usuario = {{email:"Weslles"}}></UsuarioInfo>
+                    <UsuarioInfo></UsuarioInfo>
                 </Card>
 
                 <Card titulo="DESAFIO - REPETIÇÃO" color="#FDA7DF">
