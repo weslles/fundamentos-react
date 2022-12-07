@@ -12,6 +12,7 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 
 export default function App() {
@@ -29,8 +30,8 @@ export default function App() {
 
                 </Card>
 
-                <Card titulo="#08 - [NOME]" color="#006266">
-
+                <Card titulo="#08 - Comunicação Direta" color="#006266">
+                    <DiretaPai></DiretaPai>
                 </Card>
 
                 <Card titulo="#07 - Par ou Impar" color="#FDA7DF">
