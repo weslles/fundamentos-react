@@ -24,11 +24,11 @@ export default function App() {
 
             <div className="Cards">
 
-                <Card titulo="#10 - [NOME]" color="#6F1E51">
+                <Card titulo="#12 - [NOME]" color="#FF1E51">
 
                 </Card>
 
-                <Card titulo="#10 - [NOME]" color="#6F1E51">
+                <Card titulo="#11 - [NOME]" color="#6A1C21">
 
                 </Card>
 
@@ -51,7 +51,7 @@ export default function App() {
                     <UsuarioInfo></UsuarioInfo>
                 </Card>
 
-                <Card titulo="DESAFIO - REPETIÇÃO" color="#FDA7DF">
+                <Card titulo="DESAFIO - REPETIÇÃO" color="#CABECA">
                     <TabelaProdutos></TabelaProdutos>
                 </Card>
 
