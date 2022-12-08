@@ -14,6 +14,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 
 export default function App() {
@@ -25,6 +26,14 @@ export default function App() {
 
                 <Card titulo="#10 - [NOME]" color="#6F1E51">
 
+                </Card>
+
+                <Card titulo="#10 - [NOME]" color="#6F1E51">
+
+                </Card>
+
+                <Card titulo="#10 - Componente Controlado (Input)" color="#6F1E51">
+                    <Input></Input>
                 </Card>
 
                 <Card titulo="#09 - Comunicação Indireta" color="#9980FA">
