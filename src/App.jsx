@@ -16,6 +16,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/Mega/Mega";
 
 
 export default function App() {
@@ -25,12 +26,12 @@ export default function App() {
 
             <div className="Cards">
 
-                <Card titulo="#12 - [NOME]" color="#FF1E51">
-
+                <Card titulo="#12 - Mega Sena" color="#FF1E51">
+                    <Mega></Mega>
                 </Card>
 
                 <Card titulo="#11 - Contador" color="#6A1C21">
-                    <Contador numeroInicial = {10}></Contador>
+                    <Contador numeroInicial = {10}  ></Contador>
                 </Card>
 
                 <Card titulo="#10 - Componente Controlado (Input)" color="#6F1E51">
