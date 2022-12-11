@@ -12,11 +12,11 @@ export default props => {
         while (i < qtde) {
 
             aux = Math.floor(Math.random() * (max - min) + min)
-            if (numb.length == 0) {
+            if (numb.length === 0) {
                 numb.push(aux)
             } else {
                 for (let j = 0; j < numb.length; j++) {
-                    if (aux == numb[j]) {
+                    if (aux === numb[j]) {
                         aux = Math.floor(Math.random() * (max - min) + min)
                         j = -1
                     }
@@ -42,7 +42,7 @@ export default props => {
                 <input type="number" value={qtde} min="6" max="15"
                     onChange={e => setQtde(+e.target.value)} />
             </div>
-            <button onClick={_ => setNumeros(gerarNumeros(1, 60,qtde))}>Gerar Numeros</button>
+            <button onClick={_ => setNumeros(gerarNumeros(1, 61,qtde))}>Gerar Numeros</button>
         </div>
     )
 }
