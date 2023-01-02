@@ -14,9 +14,7 @@ const UseMemo = (props) => {
     const [n3, setN3] = useState(0)
 
 
-
-    // eslint-disable-next-line no-lone-blocks
-    {/** 
+    /**
         Problema: N3 apesar de não fazer parte da operação Soma também aguarda 2s
         para reenderizar. 
         Solução de reenderização utilizando useEfect
@@ -24,7 +22,8 @@ const UseMemo = (props) => {
         const [result, setResult] = useState(0) 
         useEffect(function () {
             setResult(sum(n1, n2))
-        }, [n1, n2])*/}
+        }, [n1, n2])
+     */
 
     const result = useMemo(() => sum(n1, n2), [n1, n2])
 
